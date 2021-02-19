@@ -102,10 +102,10 @@ rBtn.addEventListener("click", function()
 {
     //play.play();
     let uValue = 1;
-    uImg.src = `/images/${uValue}.png`;
+    uImg.src = `./images/${uValue}.png`;
 
     let cValue = rand();
-    cImg.src = `/images/${cValue}.png`;
+    cImg.src = `./images/${cValue}.png`;
 
     res(uValue,cValue);
     
@@ -117,10 +117,10 @@ pBtn.addEventListener("click", function()
 {
     //play.play();
     let uValue = 2;
-    uImg.src = `/images/${uValue}.png`;
+    uImg.src = `./images/${uValue}.png`;
 
     let cValue = rand();
-    cImg.src = `/images/${cValue}.png`;
+    cImg.src = `./images/${cValue}.png`;
 
     res(uValue,cValue);
     
@@ -131,10 +131,10 @@ sBtn.addEventListener("click", function()
 {
     //play.play();
     let uValue = 3;
-    uImg.src = `/images/${uValue}.png`;
+    uImg.src = `./images/${uValue}.png`;
 
     let cValue = rand();
-    cImg.src = `/images/${cValue}.png`;
+    cImg.src = `./images/${cValue}.png`;
 
     res(uValue,cValue);
     
