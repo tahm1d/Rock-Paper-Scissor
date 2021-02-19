@@ -135,6 +135,7 @@ sBtn.addEventListener("click", function()
 
     let cValue = rand();
     cImg.src = `./images/${cValue}.png`;
+    console.log(`./images/${cValue}.png`);
 
     res(uValue,cValue);
     
