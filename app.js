@@ -5,9 +5,9 @@ const pBtn = document.querySelector(".paper");
 const sBtn = document.querySelector(".scissor");
 const result = document.querySelector(".result");
 
-const win = new Audio("/sfx/success1.mp3");
-const play = new Audio("/sfx/pruing1.mp3");
-const lose = new Audio("/sfx/lose1.mp3");
+const win = new Audio("./sfx/success1.mp3");
+const play = new Audio("./sfx/pruing1.mp3");
+const lose = new Audio("./sfx/lose1.mp3");
 
 
 function rand()
